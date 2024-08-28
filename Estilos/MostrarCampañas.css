@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f4f8; /* Fondo claro */
+    font-family: 'Arial', sans-serif; /* Fuente general */
+}
+
+header {
+    background-color: #007bff; /* Color azul para el encabezado */
+    color: white;
+    padding: 20px 0;
+    text-align: center; /* Centrar texto del encabezado */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Tamaño más grande para el título */
+    font-weight: bold; /* Negrita */
+}
+
+.campaign-detail {
+    background-color: white; /* Fondo blanco para la sección */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    margin: 20px 0; /* Margen entre secciones */
+}
+
+.campaign-detail h2 {
+    font-size: 2rem; /* Tamaño del subtítulo */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color del texto */
+}
+
+.campaign-detail p {
+    font-size: 1.2rem; /* Tamaño de fuente del párrafo */
+    color: #555; /* Color gris oscuro */
+    font-weight: bold; /* Negrita */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.img-fluid {
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+.asistir-button {
+    background-color: #007bff; /* Botón azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    font-weight: bold; /* Negrita */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.asistir-button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
