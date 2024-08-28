@@ -1,0 +1,43 @@
+
+.campaign-detail {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-detail h1 {
+    color: #024f0f;
+    font-size: 40px; /* Letra más grande para el nombre */
+}
+
+.campaign-detail img {
+    max-width: 80%; /* Imagen más pequeña */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.campaign-detail p {
+    color: #666;
+    font-size: 30px; /* Letra más grande para los detalles */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.asistir-button {
+    background-color: #0f7012;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.asistir-button:hover {
+    background-color: #034012;
+}
