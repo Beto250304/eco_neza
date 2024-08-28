@@ -1,0 +1,19 @@
+/* Estilo para la tabla de citas de recoleccion */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #056608;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #056608;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
