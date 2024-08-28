@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.payment-header {
+    margin: 0;
+}
+
+.payment-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4b79a1;
+}
+
+.payment-header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #7a92a3;
+}
+
+.footer-image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-image {
+    max-width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Opcional: para sombra */
+}
