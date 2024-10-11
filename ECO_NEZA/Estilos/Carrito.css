@@ -1,0 +1,74 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #037216;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para los enlaces de acción en la tabla */
+table td a {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    background-color: #ff6f6f;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+table td a:hover {
+    background-color: #e63946;
+}
+/* Estilos para los botones "Volver" y "Pagar" en la tabla */
+/* Estilos para el botón "Volver" */
+#page-wrapper .btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#page-wrapper .btn-volver:hover {
+    background-color: #0f62fe;
+}
+
+/* Estilos para el botón "Pagar" */
+#page-wrapper .btn-pagar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #FFD600;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#page-wrapper .btn-pagar:hover {
+    background-color: #FFC400;
+}

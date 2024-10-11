@@ -1,0 +1,30 @@
+/* Estilos para respuestas de radio buttons */
+.container input[type="radio"] {
+    display: none; /* Ocultamos el radio button estándar */
+}
+
+.container label.radio-label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.container label.radio-label:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para respuestas de radio buttons seleccionados */
+.container input[type="radio"]:checked + label.radio-label {
+    background-color: #037216;
+    color: white;
+    border-color: #037216;
+}
+
+.container input[type="radio"]:checked + label.radio-label:hover {
+    background-color: #024f0f;
+}

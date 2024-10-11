@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bg-lightgreen {
+    background-color: #28a745 !important;
+}
+
+nav.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin: 0;
+}
+
+nav.menu a:hover {
+    background-color: #218838;
+}
+
+main h2, main h3 {
+    color: #28a745;
+}
+
+footer.show {
+    bottom: 0;
+}
+
+footer.hide {
+    bottom: -100px;
+}
+
+.footer-links a:hover {
+    color: #f4f4f9;
+}

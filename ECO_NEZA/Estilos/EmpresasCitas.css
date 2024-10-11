@@ -1,0 +1,51 @@
+.table-section {
+    margin-top: 20px;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    padding: 10px; /* Espaciado alrededor de la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para la sección */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+}
+
+table th,
+table td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+    border-bottom: 3px solid #ddd; /* Línea divisoria */
+}
+
+table th {
+    background-color: #055a17; /* Color de fondo para los encabezados */
+    color: white; /* Color del texto en encabezados */
+    font-weight: bold; /* Negrita */
+    font-size: 1.0rem; /* Tamaño de fuente mayor */
+}
+
+table td {
+    background-color: #f9f9f9; /* Color de fondo de las celdas */
+    font-size: 0.99rem; /* Tamaño de fuente más pequeño */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el ratón */
+}
+
+.btn-delete {
+    background-color: #e7061c; /* Color del botón de eliminar */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 8px 16px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color */
+    font-size: 0.9rem; /* Tamaño de fuente del botón */
+}
+
+.btn-delete:hover {
+    background-color: #04370e; /* Color más oscuro al pasar el ratón */
+}

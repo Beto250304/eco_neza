@@ -1,0 +1,56 @@
+/* Estilos para Editar_Campañas.php */
+
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    color:  #0f7012;
+    ;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #0f7012;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0f7012;
+    border-radius: 5px;
+    color: #000;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #0f7012;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    margin-right: 10px;
+  }
+  
+  button[type="button"] {
+    background-color: #f00;
+    margin-left: 10px;
+  }

@@ -1,0 +1,49 @@
+/* Estilos para el contenedor del formulario */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Estilos para el título del formulario */
+.form-container h1 {
+    color: #024f0f;
+    margin-bottom: 30px;
+}
+
+/* Estilos para las etiquetas del formulario */
+.form-container label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para los inputs, selects y textareas del formulario */
+.form-container input,
+.form-container select,
+.form-container textarea {
+    margin-bottom: 15px;
+}
+
+/* Estilos para el botón de envío */
+.form-container .btn-primary {
+    background-color: #0f7012;
+    border-color: #0f7012;
+}
+
+/* Estilos para el mapa */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* Estilos específicos para los radios de horario */
+.horario .form-check-inline {
+    margin-right: 10px;
+}
+
+/* Estilos para el contenido principal */
+main.container {
+    padding: 20px;
+}
